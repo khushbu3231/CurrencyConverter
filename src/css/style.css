@@ -1,0 +1,53 @@
+h1 {
+  background-color: #202040;
+  color: white;
+  padding: 10px;
+  max-width: 550px;
+}
+
+.container {
+  background-color: #f9f9f9;
+  max-width: 550px;
+  height: 400px;
+  margin-top: 105px;
+  font-weight: 500;
+  padding: 0px;
+}
+.container .container-body {
+  padding: 20px;
+}
+.container .heading {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container .displayRate {
+  text-align: left;
+}
+.container .displayRate .displayRateImportant {
+  font-size: 30px !important;
+  font-weight: normal !important;
+}
+.container .card-deck {
+  margin-top: 10px;
+}
+.container .card-deck .dropDownStyle {
+  box-sizing: border-box;
+  width: 238px;
+  text-align: left;
+  border: none;
+  font-weight: 500;
+}
+.container .display-result {
+  margin: 10px 0;
+}
+.container .display-result {
+  background-color: #465881;
+  color: white;
+  margin-bottom: 0px;
+  height: 52px;
+  font-weight: 500;
+  padding: 5px;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

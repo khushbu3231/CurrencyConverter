@@ -1,0 +1,58 @@
+
+$heading-color:white;
+$continer-background:#f9f9f9;
+$margin-between:10px 0;
+$card-width:238px;
+h1 {
+    background-color: #202040;
+    color: white;   
+    padding: 10px;   
+    max-width: 550px;  
+  }
+
+.container{
+    background-color:$continer-background;   
+    max-width: 550px;  
+    height: 400px;      
+    margin-top: 105px;    
+    font-weight: 500;
+    padding: 0px;
+    .container-body{
+        padding:20px;
+    }  
+    .heading{
+        padding-left: 0px;
+        padding-right: 0px;       
+    }
+   
+    .displayRate{
+        text-align: left;
+        .displayRateImportant{
+            font-size: 30px !important;
+            font-weight: normal !important;
+        }
+    }
+    .card-deck{
+        margin-top: 10px;  
+        .dropDownStyle{
+            box-sizing: border-box;
+            width:$card-width;
+            text-align: left;
+            border: none;
+            font-weight: 500;    
+        }
+    }
+    .display-result{
+        margin: $margin-between;
+    }
+   
+    .display-result{
+        background-color: #465881;
+        color:$heading-color;
+        margin-bottom: 0px;
+        height:52px;
+        font-weight: 500;
+        padding: 5px;
+        font-size: 25px;
+    }  
+}
